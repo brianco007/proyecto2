@@ -1,0 +1,75 @@
+:root{
+    --gradient: linear-gradient(to left, #870000, #601f0a);
+    --borderRadius: 20px;
+    --btnPadding: 7px 20px;
+  }
+  
+  .navbar{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: #000;
+    z-index: 5;
+  }
+  
+  nav img{
+    width: 40px;
+    animation: rotate 4s linear infinite;
+  }
+  
+  @keyframes rotate {
+    0%{
+      transform: rotateY(0deg);
+    }
+    100%{
+      transform: rotateY(360deg);
+    }
+  }
+  
+  .navbar-brand{
+    font-size: 2rem;
+  }
+  
+  .navbar-brand span{
+    color: darkorange;
+  }
+  
+  .navbar-toggler-icon{
+    background-image: url(../imagenes/icono.png);
+  }
+  
+  .nav-link,
+  .navbar-brand{
+    color: #fff;
+  }
+
+  .nav-link:hover{
+    color: orange;
+  }
+  
+
+  main{
+    background: linear-gradient(to left, hsla(0, 100%, 26%, 0.377), #601f0a8e),url('../imagenes/banner-contacto.jpg'); 
+    height: 100vh;
+  }
+
+  main form{
+    max-width: 500px;
+    width: 90%;
+    border-radius:25px;
+    background-color: rgba(0, 0, 0, .5);
+  }
+
+.btn{
+  background-color: darkorange;
+}
+
+.btn-primary{
+  border: none;
+}
+.btn-primary:hover{
+  background-color:orange;
+
+}
