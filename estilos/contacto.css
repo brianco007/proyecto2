@@ -61,6 +61,7 @@
 
   main{
     background: linear-gradient(to left, hsla(0, 100%, 26%, 0.377), #601f0a8e),url('../imagenes/banner-contacto.jpg'); 
+    background-repeat: no-repeat;
     height: 100vh;
   }
 
