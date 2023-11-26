@@ -16,7 +16,7 @@
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),url(/imagenes/guitar-frets.jpg);
+    background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),url(../imagenes/guitar-frets.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
