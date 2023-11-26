@@ -1,16 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
 :root{
     --gradient: linear-gradient(to left, #870000, #601f0a);
     --borderRadius: 20px;
     --btnPadding: 7px 20px;
   }
-  
+
+  .cursive {
+    font-family: 'Dancing Script', cursive;
+  }
+
   .navbar{
     position: fixed;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    background-color: #000;
+    background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),url(/imagenes/guitar-frets.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     z-index: 5;
   }
   
@@ -60,6 +69,8 @@
     width: 90%;
     border-radius:25px;
     background-color: rgba(0, 0, 0, .5);
+    margin: 0 auto;
+    margin-top: 80px;
   }
 
 .btn{
