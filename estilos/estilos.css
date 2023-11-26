@@ -18,7 +18,7 @@ body, html{
 /*MODAL*/
 #modal.active{
   align-items: center;
-  background-image: url(/imagenes/guitar-neck.jpg);
+  background-image: url(../imagenes/guitar-neck.jpg);
   box-shadow: 0 0 0 50vmax rgba(0, 0, 0, 0.7);
   display: flex;
   transform: translate(-50%, -50%);
@@ -37,9 +37,7 @@ body, html{
   animation: border .7s infinite alternate;
 }
 
-#modal {
-  display: none;
-}
+
 
 @keyframes border {
   0%{
@@ -62,7 +60,7 @@ body, html{
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
-  background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),url(/imagenes/guitar-frets.jpg);
+  background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),url(../imagenes/guitar-frets.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -200,7 +198,7 @@ main{
 
 /* FOOTER */
 footer{
-  background: url(/imagenes/guitar-neck.jpg);
+  background: url(../imagenes/guitar-neck.jpg);
 }
 
 .redes a{

@@ -10,7 +10,7 @@ const right = document.querySelector('.right')
 //Modal pop-up
 setTimeout(function(){
   modal.classList.toggle('active');
-}, 2000)
+}, 1200)
 
 // Button to close modal
 modalBtn.addEventListener('click', ()=>{
