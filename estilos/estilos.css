@@ -68,12 +68,10 @@ body, html{
   overflow: hidden;
 }
 
-nav img{
+.guitar-pick{
   width: 40px;
   animation: rotate 4s linear infinite;
 }
-
-
 
 @keyframes rotate {
   0%{
@@ -86,6 +84,7 @@ nav img{
 
 .navbar-brand{
   font-size: 2rem;
+  position: relative;
 }
 
 .navbar-brand span{
@@ -114,12 +113,23 @@ nav img{
   width: 25px;
 }
 
+.xmashat{
+  position: absolute;
+  top: -22%;
+  left: -10%;
+}
+.xmashat img{
+  width: 30px;
+}
+
+
 /* MAIN */
 main{
   background: linear-gradient(to left, hsla(0, 100%, 26%, 0.377), #601f0a8e),url('../imagenes/banner.jpg'); 
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
   height: 700px;
   display: flex;
   flex-direction: column;
@@ -235,6 +245,9 @@ audio{
 
   #modal h2{
     font-size: 2rem;
+  }
+  .xmashat{
+    left: -17%;
   }
 }
 
