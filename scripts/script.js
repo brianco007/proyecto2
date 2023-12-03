@@ -35,7 +35,6 @@ modal.style.display = 'none';
 
 if(!localStorage.getItem('modal')){
   document.addEventListener('DOMContentLoaded', ()=>{
-    audios[9].play();
     setTimeout(function(){
       modal.style.display = 'block';
       modal.classList.toggle('active');
@@ -43,5 +42,11 @@ if(!localStorage.getItem('modal')){
   })
   localStorage.setItem('modal', 'mostrado');
 }
+
+// ModalBtn playing Xmas Riff
+modalBtn.addEventListener('click', ()=>{
+  audios[9].play();
+  console.log('working');
+})
 
 
